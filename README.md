@@ -8,7 +8,7 @@
 
 Individual programming project: Command-line calculator
 
-Due 3rd April 2018 at 11:59 pm  
+Due 5th April 2019 at 11:59 pm  
 
 This project is worth 25% of the overall mark for this subject.
 
