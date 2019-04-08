@@ -14,7 +14,8 @@ var userInput = ProcessInfo.processInfo.arguments
 // Remoev the first value of the array as it contains directory string of program
 userInput.removeFirst()
 
+// Create a new instance of the Equation class with the user input passed in as the equation.
 let equation = Equation(userInput)
 
-// print the result of running the solve() function with the userInput String array that contains the list of inputted values from the user.
+// Print the result of running the solve() function from the equation instance of the Equation class.
 print("\(equation.solve())")

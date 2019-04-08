@@ -8,13 +8,18 @@
 
 import Foundation
 
+// Equation class, that contains the equation String array and a solve() function that uses the maths functions to solve the equation.
 class Equation {
+    
+    // String array that contains the maths equation. Set as a variable as the solve() function requires the ability to manipulate it.
     var equation: [String]
     
+    // Initialiser that sets the classes equation String array to the String array passed in when creating the instance of the class.
     init(_ equation: [String]) {
         self.equation = equation
     }
     
+    // Function that solves the equation string in the class, and returns the solution as an Integer.
     func solve() -> Int {
         
         // Loop over the array for operands %, /, and x.

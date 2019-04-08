@@ -35,7 +35,7 @@ func loopOverArrayForOperands(_ array: [String], operands: String) -> [String] {
             position -= 1
         } else {
             
-            // There was no operand found,
+            // There was no operand found, move to the next position in the array.
             position += 1
         }
     }
@@ -89,6 +89,8 @@ func calculateAnswer(firstValue: String, operatorValue: String, secondValue: Str
     case "-":
         return String(valueOne - valueTwo)
     default:
+        
+        // The operand does not match any of the above cases. The user has input an incorrect equation into the program. Exit with nonzero state and print an error message.
         print("The equation was not valid. Please check it before running agian.")
         exit(1)
     }
